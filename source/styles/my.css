@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat Alternates&display=swap');
+
+
+body {
+    font-family: Montserrat Alternates, serif;
+    font-size: 120%;
+    background: rgb(255,228,196);
+    background: linear-gradient(90deg, rgba(255,228,196,1) 0%, rgba(240,213,181,1) 35%, rgba(225,198,166,1) 100%);
+}
+
+.nav-link {
+    color: bisque
+}
+
+.navbar-nav .nav-link.active {
+    color: bisque;
+}
+
+.navbar-brand img {
+    width: 70px;
+}
+.navbar-toggler {
+    background-color: bisque;
+}
+
+.sidebar {
+    color: black;
+    background: rgb(255,228,196);
+    background: linear-gradient(270deg, rgba(255,228,196,1) 0%, rgba(240,213,181,1) 35%, rgba(225,198,166,1) 100%);
+}
+
+.card {
+    background: linear-gradient(270deg, rgba(255,228,196,1) 0%, rgba(240,213,181,1) 35%, rgba(225,198,166,1) 100%);
+
+}
+.card-body>a {
+    background-color: #ea9677;
+    color: whitesmoke;
+}
+
+.slide-text {
+    margin: auto auto;
+}
+
+
+.carousel-control-prev {
+    display: flex;
+    margin-left: -100px;
+    
+}
+
+.carousel-control-next {
+    display: flex;
+    margin-right: -65px;
+}
+.slide-text,
+.footer-text {
+    color: black;
+    margin: auto auto;
+}
+
+footer {
+    border-top: black;
+
+}
+
+
+
+
+
+
+
+
